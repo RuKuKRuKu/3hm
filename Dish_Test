@@ -1,0 +1,19 @@
+package com.company;
+
+public class Dish_Test
+{
+    public static void main(String[] args)
+    {
+        Cup cup = new Cup (250, 100);
+        Plate plate = new Plate(76,201);
+
+        cup.setPrice(100);
+        plate.setPrice(201);
+        cup.setProperty(33);
+        plate.setProperty(28);
+
+        System.out.println(cup.toString() + "Cup volume: "+cup.getProperty());
+        System.out.println(plate.toString() + "Plate hardness: "+plate.getProperty());
+    }
+
+}
