@@ -1,0 +1,21 @@
+package com.company;
+
+public abstract class Dog {
+    int age, weight;
+    String name, colour;
+
+    abstract int getAge();
+    abstract void setAge(int age);
+
+    abstract int getWeight();
+    abstract void setWeight(int weight);
+
+    abstract String getName();
+    abstract void setName();
+
+    abstract String getColour();
+    abstract void setColour();
+
+
+
+}
