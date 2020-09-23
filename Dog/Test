@@ -1,0 +1,12 @@
+package com.company;
+
+public abstract class Test extends Dog {
+    public static void main(String[] args) {
+
+        Bulldog Dark = new Bulldog();
+        System.out.println(Dark.getAge());
+        System.out.println(Dark.getColour());
+        System.out.println(Dark.getName());
+        System.out.println(Dark.getWeight());
+    }
+}
