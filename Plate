@@ -1,0 +1,38 @@
+package com.company;
+
+public class Plate extends Dish
+{
+    protected int hardness;
+
+    Plate(int h,int p)
+   
+    {
+        hardness=h;
+        price=p;
+    }
+
+    @Override
+   
+    void setProperty(int p)
+   
+    {
+        this.hardness = p;
+    }
+
+    @Override
+   
+    int getProperty()
+   
+    {
+        return hardness;
+    }
+   
+    @Override
+   
+    public String toString()
+   
+    {
+        return "hardness = " + hardness +
+                ", price = " + price;
+    }
+}
