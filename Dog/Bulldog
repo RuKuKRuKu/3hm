@@ -1,0 +1,46 @@
+package com.company;
+
+public  class Bulldog extends Dog {
+
+    @Override
+    String getColour() {
+        return "black";
+    }
+
+    @Override
+    int getAge() {
+        return 1;
+    }
+
+    @Override
+    String getName() {
+        return "Timofey";
+    }
+
+    @Override
+    int getWeight() {
+        return 20;
+    }
+
+
+    @Override
+    void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
+    void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    @Override
+    void setName() {
+      this.name = name;
+    }
+
+    @Override
+    void setColour() {
+   this.colour = colour;
+    }
+
+}
