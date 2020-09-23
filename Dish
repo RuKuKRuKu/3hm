@@ -1,0 +1,22 @@
+package com.company;
+
+public abstract class Dish
+{
+    abstract void setProperty(int p);
+    
+    abstract int getProperty();
+    
+    protected int price;
+    
+    protected void setPrice(int price)
+    
+    {
+        this.price = price;
+    }
+
+    protected int getPrice()
+    
+    {
+        return price;
+    }
+}
